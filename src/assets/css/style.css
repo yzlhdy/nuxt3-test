@@ -1,0 +1,40 @@
+:root{
+    --primary: #a11af0;
+    --success: #07c160;
+}
+
+body {
+    background-color: #fff !important;
+    color: rgba(0, 0, 0, 0.8) !important;
+  }
+  .dark-mode body {
+    background-color: #091a28 !important;
+    color: #ebf4f1 !important;
+  }
+  .sepia-mode body {
+    background-color: #f1e7d0 !important;
+    color: #433422 !important;
+}
+
+.page-enter-active,
+.page-leave-active {
+  transition: all 0.5s;
+}
+
+.page-enter-from,
+.page-leave-to {
+  opacity: 0;
+  filter: blur(1rem);
+}
+
+
+.layout-enter-active,
+.layout-leave-active {
+  transition: all 0.5s;
+}
+
+.layout-enter-from,
+.layout-leave-to {
+  opacity: 0;
+  filter: blur(1rem);
+}
