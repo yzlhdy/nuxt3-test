@@ -7,7 +7,9 @@
         <n-button type="primary">Naive UI</n-button>
       </nuxt-link>
       <n-button type="info"> Info </n-button>
-      <n-button type="success"> Success </n-button>
+      <nuxt-link to="/form">
+        <n-button type="success"> Form </n-button>
+      </nuxt-link>
       <n-button type="warning"> Warning </n-button>
       <n-button type="error"> Error1 </n-button>
       <!-- <h1>Color mode: {{ $colorMode?.value }}</h1> -->
